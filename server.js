@@ -142,6 +142,6 @@ function checkRecords() {
     }
 }
 
-app.listen(process.env.PORT || 8001, () => {
+app.listen(process.env.PORT || 8002, () => {
     console.log('Server is up on the port 8000');
 });

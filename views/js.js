@@ -142,6 +142,13 @@ for (var i = 0; i < coll.length; i++) {
 }
 ;
 
+
+
+
+
+//this function makes the search menu retractable by clicking on the pusheen at the top left corner of the banner DIV//
+
+
 var hiddenpush = document.getElementById("hiddenpusheen")
 
 
@@ -155,6 +162,8 @@ hiddenpush.addEventListener("click", function () {
 
 	document.getElementById("big-page-div").style.width = "100%"
 
+	document.getElementById("title").style.left = "5%"
+
 }
 
  	else if (pushleft == 2) {
@@ -164,6 +173,8 @@ hiddenpush.addEventListener("click", function () {
 	pushleft = pushleft - 1
 
 	document.getElementById("big-page-div").style.width = "80%"
+
+	document.getElementById("title").style.left = "25%"
 
  }
 

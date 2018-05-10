@@ -136,7 +136,8 @@ body {
 	text-align: left;
 	left:25%;
 	font-size: 450%;
-	top: -9vh;
+	bottom: 72vh;
+	transition: left .5s;
 }
 #search-results{
 	display: inline;
@@ -245,9 +246,11 @@ body {
 	text-align: center;
 	top:15%;
 	overflow: hidden;
+	border: black solid 2px;
 }
 #welcome-msg {
 	font-size: 225%;
+	font-family: Marker Felt, fantasy;
 }
 #food-search {
 	width: 25%;
@@ -338,6 +341,39 @@ a:visited {
 	left: 17.5%;
 	transition: left 0.5s;
 	cursor: pointer;
+}
+
+
+#fridgeicon{
+	height: 70px;
+	width: 70px;
+	cursor: pointer;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+
+#recipeicon{
+	height: 70px;
+	width: 70px;
+	cursor: pointer;
+	padding-top: 10px;
+}
+
+#searchicon{
+	height: 70px;
+	width: 70px;
+	cursor: pointer;
+	padding-top: 10px;
+}
+
+#linkicons{
+	border-top: solid black 1px;
+	position: relative;
+	margin-top: 
+	bottom: 5%;
+	height: 15%;
+	width: 100%;
 }
 
 /*test */
