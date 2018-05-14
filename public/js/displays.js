@@ -146,6 +146,7 @@ function showResults() {
         nDiv.style.verticalAlign = "top";
 
         document.getElementById('search-row').appendChild(nDiv);
+        document.getElementById("iconlinks").style.display = 'None';
     }
 }
 
@@ -200,4 +201,12 @@ hiddenpush.onclick = function () {
         showPusheen();
     }
 };
+
+
+document.getElementById("searchicon").addEventListener("click", function () {
+        document.getElementById("ctrlpanel").style.left = '0px';
+        hiddenpush.style.left = "77.5%";
+        pushleft = 0;
+
+});
 
