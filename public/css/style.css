@@ -509,14 +509,20 @@ a:visited {
 
 #fridgeicon:hover { 
     background-color: white;
+    border: solid 10px white;
+    border-radius: 50px 50px 50px 50px;
 }
 
 #searchicon:hover { 
     background-color: white;
+    border: solid 10px white;
+    border-radius: 50px 50px 50px 50px;
 }
 
 #recipebookicon:hover { 
     background-color: white;
+    border: solid 10px white;
+    border-radius: 50px 50px 50px 50px;
 }
 
 
